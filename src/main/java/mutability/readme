@@ -1,0 +1,8 @@
+- declare mutable class as final as it cant be extended
+- declare all methods of immutable class as final as they cant be extended
+- create private constructor as a class with private constructor cant be extended
+
+Usages of final keyword:
+- Stop value change
+- Stop method overriding
+- Stop inheritance
