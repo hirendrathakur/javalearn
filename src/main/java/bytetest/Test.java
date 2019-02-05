@@ -1,7 +1,5 @@
 package bytetest;
 
-import sun.jvm.hotspot.runtime.Bytes;
-
 import java.nio.charset.Charset;
 
 public class Test {

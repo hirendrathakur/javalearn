@@ -10,4 +10,8 @@ public class Mutate {
     Mutate(String x) {
         this.mutable = x;
     }
+    Mutate(Mutate t) {
+
+    }
+
 }

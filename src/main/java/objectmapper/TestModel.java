@@ -6,12 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@AllArgsConstructor
 public class TestModel {
     String x;
     String y;
-
-    TestModel copy (TestModel testModel) {
-        return new TestModel(testModel.x, testModel.y);
-    }
 }

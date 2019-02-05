@@ -20,18 +20,18 @@ public class JavaAtomic {
 
 class ProcessingThread implements Runnable {
     //place here primitive type and we can be sure that the result count value is always between [5 to 8]
-    private AtomicInteger atomicInteger = new AtomicInteger();
+    private int count;
 
     @Override
     public void run() {
         for (int i = 1; i < 5; i++) {
             processSomething(i);
-            atomicInteger.incrementAndGet();
+            count++;
         }
     }
 
     public int getCount() {
-        return this.atomicInteger.get();
+        return this.count;
     }
 
     private void processSomething(int i) {
