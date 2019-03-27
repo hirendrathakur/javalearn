@@ -1,0 +1,359 @@
+{
+  "slotType": "WIDGET",
+  "id": 4,
+  "parentId": 0,
+  "layoutParams": {
+    "orientation": "",
+    "widgetHeight": 150,
+    "widgetWidth": 12,
+    "backgroundColor": "#FFFFFF",
+    "margin": "0,0,0,0"
+  },
+  "dataId": "1033910601",
+  "hasWidgetDataChanged": true,
+  "paginatedWidget": true,
+  "ttl": 3000,
+  "widget": {
+    "type": "FEEDS_POST",
+    "viewType": "SOLO_VIEW",
+    "widgetAttributes": {
+      "bleedingColor": null,
+      "displayItemSeparator": false,
+      "displayViewAll": false,
+      "skin": "LIGHT",
+      "skinType": null,
+      "stopBleedingColor": null,
+      "viewType": "SOLO_VIEW",
+      "hideHeaderSeparator": true
+    },
+    "data": {
+      "personaProfile": {
+        "tracking": null,
+        "value": {
+          "type": "FeedsPersonaProfile",
+          "title": {
+            "type": "RichTextValue",
+            "text": "Nike",
+            "title": "Nike"
+          },
+          "subTitle": {
+            "type": "RichTextValue",
+            "text": "6 hrs ago",
+            "title": "6 hrs ago"
+          },
+          "icon": {
+            "type": "ImageValue",
+            "dynamicImageUrl": "https://www.justrunlah.com/wp-content/uploads/2015/09/550013_10151387007773445_409018869_n.jpg"
+          },
+          "verified": true,
+          "follow": {
+            "actionType": "FOLLOW",
+            "type": "ToggleAction",
+            "value": {
+              "selected": true,
+              "selectedContentValue": {
+                "tracking": null,
+                "value": {
+                  "type": "ActionContentValue",
+                  "title": {
+                    "type": "RichTextValue",
+                    "text": "Follow",
+                    "title": "Follow"
+                  },
+                  "icon": {
+                    "type": "ImageValue",
+                    "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+                  }
+                },
+                "action": null,
+                "metaData": null
+              },
+              "unSelectedContentValue": {
+                "tracking": null,
+                "value": {
+                  "type": "ActionContentValue",
+                  "title": {
+                    "type": "RichTextValue",
+                    "text": "Follow",
+                    "title": "Follow"
+                  },
+                  "icon": {
+                    "type": "ImageValue",
+                    "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+                  }
+                },
+                "action": null,
+                "metaData": null
+              }
+            }
+          }
+        },
+        "action": null,
+        "metaData": null
+      },
+      "mainContent": {
+        "tracking": null,
+        "value": {
+          "type": "MediaContent",
+          "content": {
+            "type": "Image",
+            "source": [
+              {
+                "type": "StaticMediaSource",
+                "url": "http://www.idigyoursoleman.com/wp-content/uploads/2014/09/raised-by-wolves-fall-winter-2014-by-trashhand-01-960x640.jpg",
+                "resolution": 360,
+                "sourceType": "RUKMINI"
+              }
+            ],
+            "aspectRatio": 0.6667,
+            "displayDurationInSec": 5
+          },
+          "theaterModeEnabled": true,
+          "theaterModeCallOut": {
+            "tracking": null,
+            "value": {
+              "type": "RichTextValue",
+              "text": "Swipe for details",
+              "textColor": "color"
+            },
+            "action": null,
+            "metaData": null
+          }
+        },
+        "action": null,
+        "metaData": null
+      },
+      "like": {
+        "actionType": "LIKE",
+        "type": "ToggleAction",
+        "value": {
+          "selected": true,
+          "selectedContentValue": {
+            "tracking": null,
+            "value": {
+              "type": "ActionContentValue",
+              "title": {
+                "type": "RichTextValue",
+                "text": "Like",
+                "title": "Like"
+              },
+              "icon": {
+                "type": "ImageValue",
+                "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+              }
+            },
+            "action": null,
+            "metaData": null
+          },
+          "unSelectedContentValue": {
+            "tracking": null,
+            "value": {
+              "type": "ActionContentValue",
+              "title": {
+                "type": "RichTextValue",
+                "text": "Like",
+                "title": "Like"
+              },
+              "icon": {
+                "type": "ImageValue",
+                "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+              }
+            },
+            "action": null,
+            "metaData": null
+          }
+        }
+      },
+      "save": {
+        "actionType": "SAVE",
+        "type": "ToggleAction",
+        "value": {
+          "selected": true,
+          "selectedContentValue": {
+            "tracking": null,
+            "value": {
+              "type": "ActionContentValue",
+              "title": {
+                "type": "RichTextValue",
+                "text": "Save",
+                "title": "Save"
+              },
+              "icon": {
+                "type": "ImageValue",
+                "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+              }
+            },
+            "action": null,
+            "metaData": null
+          },
+          "unSelectedContentValue": {
+            "tracking": null,
+            "value": {
+              "type": "ActionContentValue",
+              "title": {
+                "type": "RichTextValue",
+                "text": "Save",
+                "title": "Save"
+              },
+              "icon": {
+                "type": "ImageValue",
+                "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+              }
+            },
+            "action": null,
+            "metaData": null
+          }
+        }
+      },
+      "share": {
+        "actionType": "SHARE",
+        "type": "StaticAction",
+        "value": {
+          "tracking": null,
+          "value": {
+            "type": "ActionContentValue",
+            "title": {
+              "type": "RichTextValue",
+              "text": "Share",
+              "title": "Share"
+            },
+            "icon": {
+              "type": "ImageValue",
+              "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+            }
+          },
+          "action": null,
+          "metaData": null
+        }
+      },
+      "menu": {
+        "tracking": null,
+        "value": {
+          "type": "PostMenu",
+          "options": [
+            {
+              "actionType": "HIDE",
+              "type": "StaticAction",
+              "value": {
+                "tracking": null,
+                "value": {
+                  "type": "ActionContentValue",
+                  "title": {
+                    "type": "RichTextValue",
+                    "text": "Hide",
+                    "title": "Hide"
+                  },
+                  "icon": {
+                    "type": "ImageValue",
+                    "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+                  }
+                },
+                "action": null,
+                "metaData": null
+              }
+            },
+            {
+              "actionType": "REPORT",
+              "type": "StaticAction",
+              "value": {
+                "tracking": null,
+                "value": {
+                  "type": "ActionContentValue",
+                  "title": {
+                    "type": "RichTextValue",
+                    "text": "Report",
+                    "title": "Report"
+                  },
+                  "icon": {
+                    "type": "ImageValue",
+                    "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+                  }
+                },
+                "action": null,
+                "metaData": null
+              }
+            },
+            {
+              "actionType": "FOLLOW",
+              "type": "ToggleAction",
+              "value": {
+                "selected": true,
+                "selectedContentValue": {
+                  "tracking": null,
+                  "value": {
+                    "type": "ActionContentValue",
+                    "title": {
+                      "type": "RichTextValue",
+                      "text": "Follow",
+                      "title": "Follow"
+                    },
+                    "icon": {
+                      "type": "ImageValue",
+                      "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+                    }
+                  },
+                  "action": null,
+                  "metaData": null
+                },
+                "unSelectedContentValue": {
+                  "tracking": null,
+                  "value": {
+                    "type": "ActionContentValue",
+                    "title": {
+                      "type": "RichTextValue",
+                      "text": "Follow",
+                      "title": "Follow"
+                    },
+                    "icon": {
+                      "type": "ImageValue",
+                      "dynamicImageUrl": "http://rukmini1.flixcart.com/www/{@width}/{@height}/promos/27/08/2016/6ab38f02-18fc-4df6-a578-9a55057a3d23.png?q={@quality}"
+                    }
+                  },
+                  "action": null,
+                  "metaData": null
+                }
+              }
+            }
+          ]
+        },
+        "action": null,
+        "metaData": null
+      },
+      "details": [
+        {
+          "tracking": null,
+          "value": {
+            "type": "FormattedTextDetail",
+            "value": [
+              {
+                "tracking": null,
+                "value": {
+                  "type": "RichTextValue",
+                  "text": "Check out the all new air collection",
+                  "textColor": "color"
+                },
+                "action": null,
+                "metaData": null
+              },
+              {
+                "tracking": null,
+                "value": {
+                  "type": "RichTextValue",
+                  "text": "Check out the all new air collection",
+                  "textColor": "color"
+                },
+                "action": null,
+                "metaData": null
+              }
+            ]
+          },
+          "action": null,
+          "metaData": null
+        }
+      ]
+    },
+    "tracking": null,
+    "header": null,
+    "sharedData": {}
+  }
+}

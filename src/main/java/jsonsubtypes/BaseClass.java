@@ -3,30 +3,26 @@ package jsonsubtypes;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @JsonTypeInfo(
         use = JsonTypeInfo.Id.NAME,
-        include = JsonTypeInfo.As.EXTERNAL_PROPERTY,
+        include = JsonTypeInfo.As.PROPERTY,
         visible = true,
-        property = "type"
+        property = "classType"
 )
 @JsonSubTypes({
-        @JsonSubTypes.Type(value = Derived1.class, name = "Derived1"),
-        @JsonSubTypes.Type(value = Derived2.class, name = "Derived2")
+        @JsonSubTypes.Type(value = Derived1.class, name = "derived1"),
+        @JsonSubTypes.Type(value = Derived2.class, name = "derived2")
 })
 
-@Data
-public class BaseClass {
-    String type;
+@Getter
+@Setter
+@NoArgsConstructor
+@ToString
+public abstract class BaseClass<T> extends Value {
 
-    public BaseClass(@JsonProperty("type") String type) {
-        this.type = type;
-    }
-
+    T value;
 //    public BaseClass(String type) {
 //        this.type = type;
 //    }

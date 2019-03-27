@@ -1,0 +1,20 @@
+{
+  "feeds_123_isLiked":{
+    "type":"WidgetSharedDataValue",
+    "namespace":"FEEDS",
+    "id":"",
+    "key":""
+  },
+  "feeds_123_isSaved":{
+    "type":"WidgetSharedDataValue",
+    "namespace":"FEEDS",
+    "id":"",
+    "key":""
+  },
+  "persona_123_isFollowing":{
+    "type":"WidgetSharedDataValue",
+    "namespace":"FEEDS",
+    "id":"",
+    "key":""
+  }
+}

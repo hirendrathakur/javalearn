@@ -1,0 +1,18 @@
+{
+  "type": "FEEDS_POST",
+  "viewType": "SOLO_VIEW",
+  "widgetAttributes": {
+    "bleedingColor": null,
+    "displayItemSeparator": false,
+    "displayViewAll": false,
+    "skin": "LIGHT",
+    "skinType": null,
+    "stopBleedingColor": null,
+    "viewType": "SOLO_VIEW",
+    "hideHeaderSeparator": true
+  },
+  "data":{},
+  "tracking": null,
+  "header": null,
+  "sharedData": {}
+}
